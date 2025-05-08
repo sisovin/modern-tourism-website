@@ -4,6 +4,12 @@ const HomePage = () => {
   return (
     <div>
       <section>
+        <img src="/images/hero-bg.jpg" alt="Hero Banner" />
+        <h1>Welcome to Our Travel Agency</h1>
+        <p>Explore the world with us!</p>
+      </section>
+
+      <section>
         <h2>Popular Tourist Destinations</h2>
         <ul>
           <li>Destination 1</li>
