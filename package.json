@@ -1,0 +1,16 @@
+{
+  "name": "modern-tourism-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter frontend dev",
+    "build": "pnpm --filter frontend build",
+    "start": "pnpm --filter frontend start",
+    "start:backend": "pnpm --filter backend start"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "@types/react": "^17.0.14",
+    "@types/node": "^15.12.4"
+  }
+}
