@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:prod": "next build && next export"
   },
   "dependencies": {
     "react": "^17.0.2",
@@ -16,7 +17,10 @@
     "autoprefixer": "^10.2.6",
     "postcss": "^8.3.6",
     "postcss-nested": "^5.0.6",
-    "postcss-custom-properties": "^10.0.0"
+    "postcss-custom-properties": "^10.0.0",
+    "@sentry/react": "^6.3.6",
+    "@sentry/tracing": "^6.3.6",
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "typescript": "^4.3.5",
